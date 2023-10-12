@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/Csw3yBn/240-F-221455032-g-IM0-STHUEJS3-Zap-AWWVAopnwxw86g-Ig-D.jpg",
+      "name": "John Doe",
+      "location": "New York, USA",
+      "author": "John Smith",
+      "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/g7tVNyG/istockphoto-482087868-1024x1024.jpg",
+      "name": "Jane Smith",
+      "location": "Los Angeles, USA",
+      "author": "John Smith",
+      "author_img": "https://i.ibb.co/BB9GK1S/alireza-pandkhahi-SI71z-ILgs-LY-unsplash.jpg"
+    },
+    {
+      "id": 3,
+      "picture": "https://example.com/pic3.jpg",
+      "name": "Michael Johnson",
+      "location": "Chicago, USA",
+      "author": "John Smith",
+      "author_img": "https://i.ibb.co/BB9GK1S/alireza-pandkhahi-SI71z-ILgs-LY-unsplash.jpg"
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/1rrjJkP/neom-x-DQKv-Pjxtxo-unsplash.jpg",
+      "name": "Emily Brown",
+      "location": "San Francisco, USA",
+      "author": "Jane Doe",
+      "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/5LqPZYV/marcos-paulo-prado-Pn-Er-HCrt-Xnw-unsplash.jpg",
+      "name": "Daniel Lee",
+      "location": "Miami, USA",  
+      "author": "Michael Johnson",
+      "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/VtGNHy1/saeed-karimi-4-A5b4szv9-Xc-unsplash.jpg",
+      "name": "Olivia Wilson",
+      "location": "Dallas, USA",
+      "author": "Emily Brown",
+    "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
+    },
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/HKMjgFx/saeed-karimi-H-6-Xfd-LIVJ4-unsplash.jpg",
+      "name": "William Clark",
+      "location": "Houston, USA",
+      "author": "Emily Brown",
+    "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/Gs2TH0H/saeed-karimi-v1-JRot-F3n-Lc-unsplash.jpg",
+      "name": "Sophia Taylor",
+      "location": "Phoenix, USA",
+      "author": "Emily Brown",
+    "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/jDLTKjt/ryan-jacobson-7-Pylgv-Dm39-Q-unsplash.jpg",
+      "name": "Matthew Anderson",
+      "location": "Philadelphia, USA",
+      "author": "Emily Brown",
+      "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
+    },
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/4TnV0TP/daiga-ellaby-JZ51o-UOY8-unsplash.jpg",
+      "name": "Ava Martinez",
+      "location": "Denver, USA",
+      "author": "Emily Brown",
+    "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
+    }
+  ]
+  

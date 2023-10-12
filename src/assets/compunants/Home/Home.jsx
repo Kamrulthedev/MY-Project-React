@@ -6,9 +6,16 @@ import Cart from '../Cart/Cart';
 const Home = () => {
     return (
         <div className='container'>
-            <h1 className='text-4xl font-bold'>Hallo Waold</h1>
-            <Cart></Cart>
-        </div>
+          <div className='card-container '> 
+             <div className='Cart'>
+              <div className="cart-img">
+                <img className='img'  src="https://i.ibb.co/5LqPZYV/marcos-paulo-prado-Pn-Er-HCrt-Xnw-unsplash.jpg" alt="" />
+              </div>
+             </div>
+          </div>
+           
+           
+       </div>
     );
 };
 
