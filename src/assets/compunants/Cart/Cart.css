@@ -6,17 +6,37 @@
     background-attachment: fixed;
 }
 
+.Home-container{
+    display: flex;
+}
+.crat-container{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
 .Cart{
-   text-align: center;
+   
    border: 3px solid saddlebrown;
    width: 280px;
    height: 280px;
   padding: 8px;
   border-radius: 15px;
+ 
 
 }
 .img{
-    width: 80px;
-   
+    width: 100px;
+    height: 100px;
+  margin-left: 80px;
     border-radius: 50px;
 }  
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    background-color: deeppink;
+    padding: 6px;
+    border-radius: 15px;
+}
