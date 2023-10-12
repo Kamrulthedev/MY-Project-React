@@ -17,7 +17,7 @@ const Home = () => {
             .then((data) => SetAllactor(data)); 
     },[]);
 
-    
+    console.log(Allactors)
 
     return (
      <div className='container'>
@@ -26,7 +26,7 @@ const Home = () => {
          {
           Allactors.map((actors) => (<div key={actors.id} className='Cart'>
           <div className="cart-img">
-            <img className='img'  src="https://i.ibb.co/5LqPZYV/marcos-paulo-prado-Pn-Er-HCrt-Xnw-unsplash.jpg" alt="" />
+            <img className='img'  src={actors.picture} alt="" />
             <h1 className='text-2xl font-bold'>Hanry aliaren</h1>
             <p><small>Lorem ipsum dolor sit korima fugit dolore esse, veniam nemo porro assumenda accusamus</small></p>
          
