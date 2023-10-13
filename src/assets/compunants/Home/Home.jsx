@@ -27,12 +27,12 @@ const Home = () => {
           Allactors.map((actors) => (<div key={actors.id} className='Cart'>
           <div className="cart-img">
             <img className='img'  src={actors.picture} alt="" />
-            <h1 className='text-2xl font-bold'>Hanry aliaren</h1>
-            <p><small>Lorem ipsum dolor sit korima fugit dolore esse, veniam nemo porro assumenda accusamus</small></p>
+            <h1 className='text-2xl font-bold'>{actors.name}</h1>
+            <p><small>{actors.location}</small></p>
          
             <div className="info">
-            <p>salary: 400$</p>
-            <p>Writer</p>
+            <p>salary: {actors.salery}</p>
+            <p>{actors.author}</p>
             
             </div>
             <button className='button'>...select...</button>

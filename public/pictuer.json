@@ -5,6 +5,7 @@
       "name": "John Doe",
       "location": "New York, USA",
       "author": "John Smith",
+      "salery":"200$",
       "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
     },
     {
@@ -13,6 +14,7 @@
       "name": "Jane Smith",
       "location": "Los Angeles, USA",
       "author": "John Smith",
+      "salery":"300$",
       "author_img": "https://i.ibb.co/BB9GK1S/alireza-pandkhahi-SI71z-ILgs-LY-unsplash.jpg"
     },
     {
@@ -21,6 +23,7 @@
       "name": "Michael Johnson",
       "location": "Chicago, USA",
       "author": "John Smith",
+      "salery":"250$",
       "author_img": "https://i.ibb.co/BB9GK1S/alireza-pandkhahi-SI71z-ILgs-LY-unsplash.jpg"
     },
     {
@@ -29,6 +32,7 @@
       "name": "Emily Brown",
       "location": "San Francisco, USA",
       "author": "Jane Doe",
+      "salery":"500$",
       "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
     },
     {
@@ -37,6 +41,7 @@
       "name": "Daniel Lee",
       "location": "Miami, USA",  
       "author": "Michael Johnson",
+      "salery":"600$",
       "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
     },
     {
@@ -45,6 +50,7 @@
       "name": "Olivia Wilson",
       "location": "Dallas, USA",
       "author": "Emily Brown",
+      "salery":"700$",
     "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
     },
     {
@@ -53,6 +59,7 @@
       "name": "William Clark",
       "location": "Houston, USA",
       "author": "Emily Brown",
+      "salery":"800$",
     "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
     },
     {
@@ -61,6 +68,7 @@
       "name": "Sophia Taylor",
       "location": "Phoenix, USA",
       "author": "Emily Brown",
+      "salery":"970$",
     "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
     },
     {
@@ -69,6 +77,7 @@
       "name": "Matthew Anderson",
       "location": "Philadelphia, USA",
       "author": "Emily Brown",
+      "salery":"900$",
       "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
     },
     {
@@ -77,6 +86,7 @@
       "name": "Ava Martinez",
       "location": "Denver, USA",
       "author": "Emily Brown",
+      "salery":"100$",
     "author_img": "https://i.ibb.co/MkFhnpv/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg"
     }
   ]
