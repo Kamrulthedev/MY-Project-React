@@ -12,7 +12,7 @@ const Home = () => {
     const hanlerCilkActor = (actors) =>{
       setSelctedActors([...slcetedActor, actors])
     }
-    console.log(slcetedActor);
+
 
       
     useEffect(() => {
@@ -45,8 +45,8 @@ const Home = () => {
          }
 
              </div>
-             <div className="cart">
-              <h1 className='text-4xl font-bold'>This is cart</h1>
+             <div>
+              <Cart slcetedActor={slcetedActor}></Cart>
              </div>
 
           </div>

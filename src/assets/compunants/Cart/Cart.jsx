@@ -2,10 +2,11 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = () => {
+const Cart = (slcetedActor) => {
+    console.log(slcetedActor);
     return (
-        <div className='container'>
-          
+        <div >
+          <h1>This is cart</h1>
         </div>
     );
 };
