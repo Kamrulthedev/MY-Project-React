@@ -10,7 +10,14 @@ const Home = () => {
     const [slcetedActor, setSelctedActors] = useState([]);
  
     const hanlerCilkActor = (actors) =>{
-      setSelctedActors([...slcetedActor, actors])
+      const isExsist = slcetedActor.find((item) =>item.id == actors.id)
+      if(isExsist){
+        alert("already booked")
+      }
+      else{
+        setSelctedActors([...slcetedActor, actors])
+      }
+      
     }
 
 
