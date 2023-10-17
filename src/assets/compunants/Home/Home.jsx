@@ -11,10 +11,17 @@ const Home = () => {
  
     const hanlerCilkActor = (actors) =>{
       const isExsist = slcetedActor.find((item) =>item.id == actors.id)
+
+      let count = actors.salery;
+      
       if(isExsist){
-        alert("already booked")
+        return alert("already booked")
       }
       else{
+        slcetedActor.forEach((item)=> {
+          count = count + item.salery;
+        });
+        console.log(count)
         setSelctedActors([...slcetedActor, actors])
       }
       
@@ -42,7 +49,7 @@ const Home = () => {
             <p><small>{actors.location}</small></p>
          
             <div className="info">
-            <p>salary: {actors.salery}</p>
+            <p>salary: {actors.salery}$</p>
             <p>{actors.author}</p>
             
             </div>
