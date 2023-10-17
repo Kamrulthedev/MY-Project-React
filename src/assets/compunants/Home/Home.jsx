@@ -7,17 +7,21 @@ import Cart from '../Cart/Cart';
 const Home = () => {
 
     const [Allactors, SetAllactor] = useState([]);
+    const [slcetedActor, setSelctedActors] = useState([]);
  
-
+    const hanlerCilkActor = (actors) =>{
+      setSelctedActors([...slcetedActor, actors])
+    }
+    console.log(slcetedActor);
 
       
     useEffect(() => {
-            fetch('pictuer.json')
+            fetch('pictuer.json') 
             .then((res)=> res.json())
             .then((data) => SetAllactor(data)); 
     },[]);
 
-    console.log(Allactors)
+    
 
     return (
      <div className='container'>
@@ -35,7 +39,7 @@ const Home = () => {
             <p>{actors.author}</p>
             
             </div>
-            <button className='button'>...select...</button>
+            <button onClick={()=>hanlerCilkActor(actors)} className='button btn'>...select...</button>
           </div>
          </div>))
          }
