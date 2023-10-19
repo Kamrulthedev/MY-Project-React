@@ -8,12 +8,14 @@ const Home = () => {
 
     const [Allactors, SetAllactor] = useState([]);
     const [slcetedActor, setSelctedActors] = useState([]);
+    const [remaing, setremaing ] = useState(0)
+    const [totleCost, settotleCost] = useState(0)
  
     const hanlerCilkActor = (actors) =>{
       const isExsist = slcetedActor.find((item) =>item.id == actors.id)
 
       let count = actors.salery;
-      
+
       if(isExsist){
         return alert("already booked")
       }
@@ -21,11 +23,20 @@ const Home = () => {
         slcetedActor.forEach((item)=> {
           count = count + item.salery;
         });
-        console.log(count)
-        setSelctedActors([...slcetedActor, actors])
+        const totleRemening = 20000 - count;
+       
+        if(count > 20000){
+        return alert("this is bleaens is shrot");
+        }
+        else{
+          settotleCost(count);
+          setremaing(totleRemening)
+          setSelctedActors([...slcetedActor, actors])
+        }
+    
       }
       
-    }
+    };
 
 
       
@@ -60,7 +71,7 @@ const Home = () => {
 
              </div>
              <div>
-              <Cart slcetedActor={slcetedActor}></Cart>
+              <Cart slcetedActor={slcetedActor} remaing={remaing} totleCost={totleCost}></Cart>
              </div>
 
           </div>

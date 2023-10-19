@@ -4,11 +4,13 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = ({slcetedActor}) => {
+const Cart = ({slcetedActor, remaing ,totleCost}) => {
     console.log(slcetedActor);
     return (
         <div >
           <h1>totle actors: {slcetedActor.length}</h1>
+          <h2>remaing: {remaing}</h2>
+          <h3>Totle Cost:{totleCost}</h3>
           {
             slcetedActor.map((actor)=>(<li key={actor.id}>{actor.name}</li>))
           }
